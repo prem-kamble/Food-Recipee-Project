@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Food Recipes</title>
+    <title>Food Recipe Temp</title>
     <!-- favicon -->
-    <link rel="shortcut icon" href="D:\FoodRecipe\assets\FR.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
     <!-- normalize -->
     <link rel="stylesheet" href="./css/normalize.css" />
     <!-- font-awesome -->
@@ -22,10 +22,9 @@
     <nav class="navbar">
       <div class="nav-center">
         <div class="nav-header">
-		  <a href="index.html" class="nav-logo">
+          <a href="index.html" class="nav-logo">
             <img src="D:\FoodRecipe\assets\Logo.png" alt="simply recipes" height="100px"/>
           </a>
-		  
           <button class="nav-btn btn">
             <i class="fas fa-align-justify"></i>
           </button>
@@ -43,47 +42,24 @@
       </div>
     </nav>
     <!-- end of nav -->
-	
-    <!-- main -->
     <main class="page">
-      <!-- header -->
-      <header class="hero">
-        <div class="hero-container">
-          <div class="hero-text">
-            <h1>Simple recipes</h1>
-            <h4>no fluff, just recipes</h4>
-          </div>
-        </div>
-      </header>
-      <!-- end of header -->
-	   <section class="recipes-container">
-        <!-- tag container -->
-        <div class="tags-container">
-          <h4>recipes</h4>
-          <div class="tags-list">
-            <a href="tag-template.html">Veg(2)</a>
-            <a href="tag-template.html">Breakfast (2)</a>
-            <a href="tag-template.html">Non Veg (3)</a>
-            <a href="tag-template.html">Sweet (4)</a>
-          </div>
-        </div>
-        <!-- end of tag container -->
-        <!-- recipes list -->
+      <div class="featured-recipes">
+        <h4></h4>
+          <!-- recipes list -->
         <div class="recipes-list">
-          <!-- single recipe -->
           <!-- single recipe -->
           <a href="D:\FoodRecipe\chicken.html" class="recipe">
             <img
-              src="D:\FoodRecipe\assets\recipes\chicken_cueey.jfif"
+              src="D:\FoodRecipe\assets\recipes\chicken_cueey.jpg"
               class="img recipe-img"
-              alt=""
+              alt="Spicy Chicken Curry Recipe"
             />
             <h5>Spicy Chicken Curry Recipe</h5>
             <p>Prep : 10min | Total Time : 1hr 10min</p>
           </a>
           <!-- end of single recipe -->
           <!-- single recipe -->
-		  <a href="D:\FoodRecipe\paneer_gold_fry.html" class="recipe">
+          <a href="D:\FoodRecipe\paneer_gold_fry.html" class="recipe">
             <img
               src="D:\FoodRecipe\assets\recipes\paneer_golden_fry.jpg"
               class="img recipe-img"
@@ -93,8 +69,7 @@
             <p>Prep : 10min | Total Time : 20min</p>
           </a>
           <!-- end of single recipe -->
-		  
-		  <!-- single recipe -->
+          <!-- single recipe -->
           <a href="D:\FoodRecipe\Vegetable_sup.html" class="recipe">
             <img
               src="D:\FoodRecipe\assets\recipes\vegetable_soup.jpg"
@@ -113,16 +88,14 @@
               alt=""
             />
             <h5>Banana Pancakes</h5>
-            <p>Prep : 10min | Total Time : 35min</p>
+            <p>Prep : 10min | Total time : 35min</p>
           </a>
           <!-- end of single recipe -->
         </div>
-        <!-- end of recipes list -->
-      </section>
-
+        <!-- end of recipe list -->
+      </div>
+          
     </main>
-    <!-- end of main -->
-	
     <!-- footer -->
     <footer class="page-footer">
       <p>
@@ -131,5 +104,6 @@
         <a href="#">PK Software's</a>
       </p>
     </footer>
+   
   </body>
 </html>
