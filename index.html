@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Recipes</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href=".\assets\FR.png" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- nav  -->
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+		  <a href="index.html" class="nav-logo">
+            <img src=".\assets\Logo.png" alt="simply recipes" height="100px"/>
+          </a>
+		  
+          <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link"> Home </a>
+          <a href="about.html" class="nav-link"> About </a>
+          <a href="tags.html" class="nav-link"> Tags </a>
+          <a href="recipes.html" class="nav-link"> Recipes </a>
+
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn"> Contact </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end of nav -->
+	
+    <!-- main -->
+    <main class="page">
+      <!-- header -->
+      <header class="hero">
+        <div class="hero-container">
+          <div class="hero-text">
+            <h1>Simple recipes</h1>
+            <h4>no fluff, just recipes</h4>
+          </div>
+        </div>
+      </header>
+      <!-- end of header -->
+	   <section class="recipes-container">
+        <!-- tag container -->
+        <div class="tags-container">
+          <h4>recipes</h4>
+          <div class="tags-list">
+            <a href="tag-template.html">Veg(2)</a>
+            <a href="tag-template.html">Breakfast (2)</a>
+            <a href="tag-template.html">Non Veg (3)</a>
+            <a href="tag-template.html">Sweet (4)</a>
+          </div>
+        </div>
+        <!-- end of tag container -->
+        <!-- recipes list -->
+        <div class="recipes-list">
+          <!-- single recipe -->
+          <!-- single recipe -->
+          <a href=".\chicken.html" class="recipe">
+            <img
+              src=".\assets\recipes\spicy_chicken.jpg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Spicy Chicken Curry Recipe</h5>
+            <p>Prep : 10min | Total Time : 1hr 10min</p>
+          </a>
+          <!-- end of single recipe -->
+          <!-- single recipe -->
+		  <a href=".\paneer_gold_fry.html" class="recipe">
+            <img
+              src=".\assets\recipes\paneer_golden_fry.jpg"
+              class="img recipe-img"
+              alt="Panner Golden Fry"
+            />
+            <h5>Panner Golden Fry</h5>
+            <p>Prep : 10min | Total Time : 20min</p>
+          </a>
+          <!-- end of single recipe -->
+		  
+		  <!-- single recipe -->
+          <a href=".\Vegetable_sup.html" class="recipe">
+            <img
+              src=".\assets\recipes\vegetable_soup.jpg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Vegetable Soup</h5>
+            <p>Prep : 15min | Total Time : 40min</p>
+          </a>
+          <!-- end of single recipe -->
+          <!-- single recipe -->
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./assets/recipes/recipe-4.jpeg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Banana Pancakes</h5>
+            <p>Prep : 10min | Total Time : 35min</p>
+          </a>
+          <!-- end of single recipe -->
+        </div>
+        <!-- end of recipes list -->
+      </section>
+
+    </main>
+    <!-- end of main -->
+  </body>
+    <!-- footer -->
+    <footer class="page-footer">
+      <p>
+        &copy; <span >2022</span>
+        <span class="footer-logo">FoodRecipes</span> Built by
+        <a href="#">PK Software's</a>
+      </p>
+    </footer>
+
+</html>
